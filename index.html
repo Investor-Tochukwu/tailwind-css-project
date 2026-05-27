@@ -17,7 +17,7 @@
 <body class="text-white bg-[#0f172a] fonts-['Inter', sans-serif;]">
 
   <header class="border-b border-white/10" >
-    <nav class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between ">
+    <nav class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between relative">
 
 
       <div class="flex items-center gap-2">
@@ -28,8 +28,7 @@
         <h2 class="text-xl font-bold">Nexus</h2>
       </div>
 
-    
-      <ul class="hidden md:flex items-center gap-10 text-sm text-gray-300">
+      <ul class="hidden lg:flex items-center gap-10 text-sm text-gray-300">
         <li><a href="#" class="hover:text-white transition">Home</a></li>
         <li><a href="#" class="hover:text-white transition">Services</a></li>
         <li><a href="#" class="hover:text-white transition">About</a></li>
@@ -37,13 +36,19 @@
       </ul>
 
 
-      <div class="flex items-center gap-4">
+      <div class="items-center gap-4 hidden lg:flex">
         <button class="bg-[#3b82f6] hover:bg-blue-600 transition px-6 py-3 rounded-lg font-semibold text-sm">
           Get Started
         </button>
       </div>
 
+       <div class="lg:hidden">
+
+        <button> <span class="material-symbols-outlined text-white">dehaze</span> </button>
+
+       </div>
     </nav>
+
   </header>
 
   <section class="max-w-7xl mx-auto px-6 py-24">
